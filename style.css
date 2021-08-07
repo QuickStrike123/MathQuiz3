@@ -1,0 +1,31 @@
+body {
+    background: red;
+}
+
+.LoginPlayer1,
+.LoginPlayer2 {
+    background: white;
+    padding: 10px;
+    float: none;
+    border-radius: 25px;
+}
+
+
+#Nameplayer1_name,
+#Nameplayer2_name {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+#Question {
+    width: 60%;
+}
+
+#Input {
+    background: white;
+    border-radius: 10px;
+    border-top: 10px solid #AA4465;
+    padding: 10px;
+    float: none;
+    text-align: left;
+}

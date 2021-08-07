@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Guess The Word</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="main.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body onload="AddPlayers()">
+
+    <h4 id="Player1Name"></h4><span id="Player1Score">0</span>
+
+    <h4 id="Player2Name"></h4><span id="Player2Score">0</span>
+
+    <div class="container">
+        <center>
+            <h2 style="color: white;">Answer The Math Question</h2>
+
+            <h4 id="PlayerQuestion"></h4>
+
+            <h4 id="PlayerAnswer"></h4>
+
+            <br>
+
+
+            <br>
+
+            <div id="Input" class="col-lg-6"></div>
+
+            <br>
+
+            <br>
+
+            <label>Send You Math Question: <b style="color: white">Try To Give A hard Question</b></label>
+
+            <br>
+
+            <br>
+
+            <input placeholder="Enter Number1" type="text" class="form-control" id="Number1">
+
+            <br>
+
+            <br>
+
+            <input placeholder="Enter Number2" type="text" class="form-control" id="Number2">
+
+            <br>
+
+            <br>
+
+            <button id="Send" onclick="Send()" style="width: 30%;" class="btn btn-success">Send</button>
+
+        </center>
+    </div>
+</body>
+
+</html>
